@@ -71,6 +71,114 @@ step 5 : add and push your content (every time when you apply changes)
 
         #git push -u origin main
 
+#include <stdio.h>
+
+void main(){
+
+    int arr[5] = {1,2,3,4,5};
+    char str[5] = "hello"; 
+    // float arr1[5] = {1.2,2.3,4.5,5.5,6.6};
+    // char arr3[] = {'h','e','l','l','o'};
+    // char s[5] = "hello";
+
+    // printf("the total size of array:-%d\n",sizeof(arr));
+    // printf("element size :- %d", sizeof(arr[0]));
+    // sizeof(arr)/sizeof(arr[0]);
+    for(int i=0;i<5;i++){
+        printf("%c",str[i]);
+    }
+
+    printf("%s", str);
+
+
+
+    // printf("%.2f", arr1[6]);
+    
+}
+// 365.2422
+// leap year -> feabrary-> 29
+// 100/4 = 25; // leap 
+// 400 -> 100; 
+//1 
+//2
+//3
+// 4 -> leap year
+//5
+//6
+//7
+//8 -> leap year
+
+// 3333 year 
+
+#include <stdio.h>
+
+void main(){
+    int year = 2024;
+    if(year%4 == 0){
+        printf("it is a leap year");
+    }else{
+        printf("it is not a leap year");
+    }
+}
+
+#include <stdio.h>
+#include <string.h>
+
+void main(){
+    char arr[] = "hello";
+
+    if(strcmp(arr,"hel")==0){
+        printf("true");
+    }else{
+        printf("false");
+    }
+}
+
+#include <stdio.h>
+
+void main(){
+    int choice;
+
+    printf("1.credit cash\n");
+    printf("2.debit cash\n");
+    printf("3.change pin\n");
+    printf("4.balance inquiry\n");
+
+    printf("Enter your choice: ");
+    scanf("%d", &choice);
+
+    switch(choice){
+        case 1 : printf("cash has been credited");
+                break;
+        case 2 : printf("cash has been debited");
+                break;
+        case 3 : printf("your pin has been changed");
+                break;
+        case 4 : printf("balance inquiry send successfully");
+                break;
+        default : printf("you have entered a wrong choice");
+    };
+
+
+}
+
+// printf("element size :- %d", sizeof(arr[0]));
+
+#include <stdio.h>
+
+void main(){
+    // ternary operator 
+    // oprand operator oprand
+    // expression ? expression : expression
+    int a = 20;
+    // nested ternary - expression
+    
+    
+    printf(
+        a>18 ? (a>25 ? "lagan kar" : "job kar") : (a>13 ? "teenager" : "kid")
+    );
+}
+
     
 
 
