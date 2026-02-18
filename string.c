@@ -1,12 +1,15 @@
 #include <stdio.h>
-#include <string.h>
 
 void main(){
-    char arr[] = "hello";
-
-    if(strcmp(arr,"hel")==0){
-        printf("true");
-    }else{
-        printf("false");
-    }
+    char str[] = "Hello";
+    int a = 5;
+    int *ip;
+    ip = &a;
+    char *p; // declare pointer // pointer to int, string, float
+    p= str; // 
+    
+    printf("%s\n",str);
+    printf("%s", p);
+    printf("%d", a);
+    printf("%d", *ip); // derference operator
 }
