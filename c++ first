@@ -1,0 +1,23 @@
+1. Write a C++ program that prints the sentence:
+   Hello, welcome to C++ programming.
+
+2. Write a C++ program that prints your name, your age, and your city on three different lines.
+
+3. Write a C++ program that asks the user for their name and prints:
+   Hello <name>
+
+4. Write a C++ program that asks the user for two integers and prints their sum.
+
+5. Write a C++ program that asks the user for one integer and prints whether the number is EVEN or ODD.
+
+6. Write a C++ program that asks the user for their marks and prints PASS if marks are 35 or above, otherwise prints FAIL.
+
+7. Write a C++ program that prints numbers from 1 to 10 using a for loop.
+
+8. Write a C++ program that prints numbers from 10 to 1 using a while loop.
+
+9. Write a C++ program that asks the user for one number and prints whether the number is POSITIVE, NEGATIVE, or ZERO.
+
+10. Write a C++ program that asks the user for a number n and prints the multiplication table of n using a loop.
+
+(Use cout for output and cin for input in all programs.)
